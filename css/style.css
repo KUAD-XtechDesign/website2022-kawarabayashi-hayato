@@ -98,7 +98,7 @@ header .inner {
 /* メニュー */
 #global_menu {
   display: flex;
-  font-size: 18px;
+  font-size: 25px;
   position: relative;
 }
 
