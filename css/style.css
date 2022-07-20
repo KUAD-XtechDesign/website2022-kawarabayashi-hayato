@@ -337,7 +337,7 @@ reportページ
 
 .report .outline .pic {
   width: 45%;
-  border: 3px solid #999;
+  border: 10px solid rgb(153, 145, 145);
 }
 
 .report .outline .txt {
@@ -354,7 +354,7 @@ reportページ
 .ex_link {
   display: inline-block;
   position: relative;
-  padding: 4px;
+  padding: px;
   padding-left: 26px;
 }
 
