@@ -17,10 +17,10 @@ body {
 }
 
 body {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.6;
   font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
-  color: #333333;
+  color: #000000;
   letter-spacing: 0.05em;
 }
 
@@ -79,7 +79,7 @@ header a {
 }
 
 header .inner {
-  background-color: #fff;
+  background-color: rgb(236, 127, 59);
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -98,7 +98,7 @@ header .inner {
 /* メニュー */
 #global_menu {
   display: flex;
-  font-size: 23px;
+  font-size: 18px;
   position: relative;
 }
 
@@ -120,7 +120,7 @@ header .inner {
   position: absolute;
   width: 100%;
   height: 10px;
-  background-color: #ccc;
+  background-color: rgb(255, 255, 255);
 }
 
 #menu_btn{
@@ -197,7 +197,7 @@ body.contents_page {/* classにcontents_pageが指定されているbodyタグ *
 ================================================= */
 .top_eye_catch {
   height: 500px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-weight: bold;
   background-image: url(../images/websitehaikei2.jpg);/* 背景画像 */
   background-size: cover;/* 背景画像のサイズ 要素いっぱいに表示 */
@@ -249,7 +249,7 @@ a.link_btn{
 a.link_btn:hover{/* classがlink_btnのaタグのマウスオーバー時 */
   opacity: 1;/* 半透明にならないように上書き */
   border-radius: 0;
-  color: #fff;
+  color: rgb(255, 255, 255);
   background-color: #333;
 }
 
